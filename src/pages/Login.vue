@@ -4,6 +4,18 @@
       <h2 class="lead display-3">#SLACK#</h2>
       <p>Instant communication!!!</p>
     </div>
+    <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col text-center">
+          <button class="btn btn-outline-danger btn-lg">Login with Google</button>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col text-center">
+          <button class="btn btn-outline-info btn-lg">Login with Twitter</button>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
