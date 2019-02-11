@@ -7,18 +7,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: () => import('@/components/HelloWorld.vue')
+      name: 'chat',
+      component: () => import('@/pages/Chat.vue')
     },
     {
       path: '/login',
       name: 'Login',
       component: () => import('@/pages/Login.vue')
-    },
-    {
-      path: '/chat',
-      name: 'Chat',
-      component: () => import('@/pages/Chat.vue')
     }
   ],
   mode: 'history'
